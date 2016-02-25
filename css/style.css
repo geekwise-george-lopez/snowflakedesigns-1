@@ -41,15 +41,15 @@ header{
     float: right;
 }
 #li_one{
-    margin: 5px;
-    padding: 3px;
+    margin: 1px;
+    padding: 2px;
     display: inline;
     text-transform: uppercase;
     list-style: none;
-    width:calc(80%/3);
+     width:calc(80%/3);
     float: left;
     text-align: center;
-    line-height: 2;
+    line-height: 1.5;
     background-color: #6c5b79;
     font-size: 15px;
     color: #fff;
@@ -61,7 +61,7 @@ input{
     text-align: center;
     color:#fff;
     border-style: none;
-    
+    text-transform: uppercase;
     
 }
 .compras{
