@@ -44,7 +44,7 @@ header{
     margin: 5px;
     padding: 3px;
     display: inline;
-    text-transform: capitalize;
+    text-transform: uppercase;
     list-style: none;
     width:calc(80%/3);
     float: left;
@@ -140,7 +140,7 @@ a:hover{
 
 #dropdown {
     display:block;
-   
+   text-transform: uppercase;
    opacity:0; position:relative;
    z-index:0;
 }
@@ -165,7 +165,7 @@ a:hover{
         height: 80px;
         display:inline-block;
         width: 100%;
-        transform: translateX(20%)
+        transform: translateX(20%);
     
     }
     #img_left{
